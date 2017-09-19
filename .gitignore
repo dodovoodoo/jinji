@@ -4,11 +4,11 @@ ehthumbs.db
 Desktop.ini
 
 # build
-output/*
+output
 
 # node.js
 npm-debug.log
 node_modules/
 
 # files
-components/*
+components

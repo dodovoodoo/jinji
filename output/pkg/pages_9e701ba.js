@@ -1,2 +1,0 @@
-;/*!modules/app/index.js*/
-define("modules/app/index",function(e){var o=e("components/jquery/jquery"),n=e("components/fastclick/fastclick");e("components/lib-flexible/flexible"),e("modules/widget/footer/footer"),o(function(){n.attach(document.body)})});

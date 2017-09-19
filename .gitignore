@@ -4,7 +4,7 @@ ehthumbs.db
 Desktop.ini
 
 # build
-.output
+output/
 
 # node.js
 npm-debug.log

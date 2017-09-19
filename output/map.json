@@ -1,0 +1,154 @@
+{
+    "res": {
+        "modules/css/common.scss": {
+            "uri": "http://www.jinjiedu.com//public/css/common_d3760d8.css",
+            "type": "css",
+            "pkg": "p0"
+        },
+        "modules/css/index.scss": {
+            "uri": "http://www.jinjiedu.com//public/css/index_530ee1a.css",
+            "type": "css"
+        },
+        "components/animate.css/animate.css": {
+            "uri": "http://www.jinjiedu.com//public/components/animate.css/animate_ecf1a2c.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "modules/widget/footer/footer.scss": {
+            "uri": "http://www.jinjiedu.com//public/widget/footer/footer_dd7a357.css",
+            "type": "css",
+            "pkg": "p2"
+        },
+        "lib/mod.js": {
+            "uri": "http://www.jinjiedu.com//public/lib/mod_4296a9b.js",
+            "type": "js",
+            "aioPkg": "pkg/page2.html_aio.js"
+        },
+        "modules/css/page2.scss": {
+            "uri": "http://www.jinjiedu.com//public/css/page2_d41d8cd.css",
+            "type": "css"
+        },
+        "modules/widget/footer/footer.js": {
+            "uri": "http://www.jinjiedu.com//public/widget/footer/footer_c120130.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "modules/widget/footer/footer"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "modules/widget/footer/footer.scss"
+            ],
+            "pkg": "p3"
+        },
+        "modules/app/index.js": {
+            "uri": "http://www.jinjiedu.com//public/app/index_dc0910d.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "modules/app/index"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/fastclick/fastclick.js",
+                "components/lib-flexible/flexible.js",
+                "modules/widget/footer/footer.js"
+            ],
+            "pkg": "p4"
+        },
+        "components/jquery/jquery.js": {
+            "uri": "http://www.jinjiedu.com//public/components/jquery/jquery_16b5858.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/jquery/jquery"
+            },
+            "pkg": "p5"
+        },
+        "components/fastclick/fastclick.js": {
+            "uri": "http://www.jinjiedu.com//public/components/fastclick/fastclick_31750e7.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/fastclick/fastclick"
+            },
+            "pkg": "p5"
+        },
+        "components/lib-flexible/flexible.js": {
+            "uri": "http://www.jinjiedu.com//public/components/lib-flexible/flexible_542e638.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/lib-flexible/flexible"
+            },
+            "pkg": "p5"
+        }
+    },
+    "pkg": {
+        "p0": {
+            "uri": "http://www.jinjiedu.com//pkg/common_5767ad6.css",
+            "type": "css",
+            "has": [
+                "modules/css/common.scss"
+            ]
+        },
+        "p1": {
+            "uri": "http://www.jinjiedu.com//pkg/components_28ac2b7.css",
+            "type": "css",
+            "has": [
+                "components/animate.css/animate.css"
+            ]
+        },
+        "p2": {
+            "uri": "http://www.jinjiedu.com//pkg/modules_404a3a1.css",
+            "type": "css",
+            "has": [
+                "modules/widget/footer/footer.scss"
+            ]
+        },
+        "p3": {
+            "uri": "http://www.jinjiedu.com//pkg/modules_77211f6.js",
+            "type": "js",
+            "has": [
+                "modules/widget/footer/footer.js"
+            ],
+            "deps": [
+                "components/jquery/jquery.js",
+                "modules/widget/footer/footer.scss"
+            ]
+        },
+        "p4": {
+            "uri": "http://www.jinjiedu.com//pkg/pages_9e701ba.js",
+            "type": "js",
+            "has": [
+                "modules/app/index.js"
+            ],
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/fastclick/fastclick.js",
+                "components/lib-flexible/flexible.js",
+                "modules/widget/footer/footer.js"
+            ]
+        },
+        "p5": {
+            "uri": "http://www.jinjiedu.com//pkg/components_b3beb4b.js",
+            "type": "js",
+            "has": [
+                "components/jquery/jquery.js",
+                "components/fastclick/fastclick.js",
+                "components/lib-flexible/flexible.js"
+            ]
+        },
+        "pkg/index.html_aio.js": {
+            "type": "js",
+            "uri": "http://www.jinjiedu.com//pkg/index.html_aio_dfdcdb2.js",
+            "has": [
+                "lib/mod.js",
+                "pkg/index.html_map.js"
+            ]
+        },
+        "pkg/page2.html_aio.js": {
+            "type": "js",
+            "uri": "http://www.jinjiedu.com//pkg/page2.html_aio_ef77212.js",
+            "has": [
+                "lib/mod.js",
+                "pkg/page2.html_map.js"
+            ]
+        }
+    }
+}
